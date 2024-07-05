@@ -1,13 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>CV</h1>
-    <h2>Julia Gris</h2>
-    <p>Future Frontend-developer</p>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+                    <li class="nav_item"><a href="#summary" class="nav_link">Summary</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#courses" class="nav_link">Courses</a></li>
+                    <li class="nav_item"><a href="#code" class="nav_link">Code</a></li>
+                    <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                    <li class="nav_item"><a href="#languages" class="nav_link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="section_profile" id="profile">
+                <img src="assets/img/ava.jpg" alt="" class="profile_photo">
+                <div class="section_profile_title">
+                    <h1 class="section_title">Julia Gris</h1>
+                    <h3 class="section_subtitle">Junior Frontend-developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section_title">Contacts</h2>
+                <ul class="section_list">
+                    <li class="section_item contacts_item">
+                        <h3>Saint-Petersburg, Russia</h3>
+                    </li>
+                    <li class="section_item contacts_item">
+                        <b>Email</b>: <a href="#" title="email">julgris29@gmail.com</a>
+                    </li>
+                    <li class="section_item contacts_item">
+                        <b>Github</b>: <a href="https://github.com/Jul-G" title="github">Jul-G</a>
+                    </li>
+                    <li class="section_item contacts_item">
+                        <b>Telegram</b>: <a href="https://t.me/julgris" title="github">@julgris</a>
+                    </li>
+                    <li class="section_item contacts_item">
+                        <b>Discord</b>: <a href="https://discord.com/users/1249658841663148145" title="github">J_G</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section_title">Summary</h2>
+                <p>
+                    My journey into programming began a long time ago. At first I started learning Python, but I gave up on it. After that I studied testing a little. 
+                    <br>
+                    But after all I realized that frontend and “drawing buttons” attracts me more. I studied at <a href="https://htmlacademy.ru/">"Html Academy"</a> and using the Sololearn and Mimo apps. 
+                    Not long ago I found out about "RSS" and decided to take the course.
+                    <br>
+                    I would like to take part in the creation of a real project and delve into everything even better.
+                </p>
+              </section>
+              <section class="section" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <ul class="section_list">
+                  <li class="section_item">
+                    <b>Web-development</b>: HTML5, CSS3, JavaScript
+                  </li>
+                  <li class="section_item">
+                    <b>Version control</b>: GIT, Github
+                  </li>
+                  <li class="section_item">
+                    <b>Graphics</b>: Figma
+                  </li>
+                </ul>
+              </section>
+              <section class="section" id="courses">
+                <h2 class="section_title">Courses</h2>
+                <ul class="section_list">
+                  <li class="section_item">
+                    <b>Hexlet</b> - HTML: Perfect for Beginners, CSS: Perfect for Beginners
+                  </li>
+                  <li class="section_item">
+                    <b>Html Academy</b> - Introduction to Web-development
+                  </li>
+                  <li class="section_item">
+                    <b>Sololearn</b> - Introduction to HTML, Introduction to CSS, Frontend for beginners
+                  </li>
+                  <li class="section_item">
+                    <b>Mimo</b> - Frontend Developer
+                  </li>
+                </ul>
+              </section>
+              <section class="section" id="code">
+                <h2 class="section_title">Code</h2>
+                <pre class="pre">
+                    <code>function numberToString(num) {
+                            return String(num);
+                        }</code>
+                </pre>
+              </section>
+              <section class="section" id="education">
+                <h2 class="section_title">Education</h2>
+                <p>St. Petersburg State University of Industrial Technologies and Design</p>
+              </section>
+              <section class="section" id="languages">
+                <h2 class="section_title">Languages</h2>
+                <ul class="section_list">
+                    <li class="section_item">
+                        <b>Russian</b> - Fluent (Native)
+                    </li>
+                    <li class="section_item">
+                        <b>English</b> - B2
+                    </li>
+                    <li class="section_item">
+                        <b>German</b> - A2
+                    </li>
+                </ul>
+              </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p></p>
+            <div class="footer_links">
+                <picture>
+                    <a href="https://rs.school/courses/javascript-ru">
+                        <img src="assets/img/logo-rss.png" alt="logo rss" class="rss">
+                    </a>
+                </picture>
+                <br>
+                <br>
+                <a href="https://github.com/Jul-G" title="github" id="github_footer">Jul-G</a>
+            </div>
+            <span class="footer__span"> &#169; 2024
+        </div>
+    </footer>
+
 </body>
+
 </html>
