@@ -1,0 +1,114 @@
+html {
+   scroll-behavior: smooth;
+}
+.header {
+   background-color: #00a5a580;
+}
+body {
+   font-family: "Fira Sans Condensed", sans-serif;
+   margin: 0 auto;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-size: 20px;
+   font-weight: 400;
+   background-color: #c5f2f5;
+   
+}
+* {
+   box-sizing: border-box;
+   /* border: 1px solid red; */
+}
+#profile{
+   display: flex;
+   flex-wrap: wrap;
+}
+.profile_photo{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+   display: flex;
+   justify-content: left;
+}
+.section_profile_title {
+   margin-top: 25px;
+}
+.container {
+   width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+}
+.nav_list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 600;
+}
+.nav_link {
+   padding: 0 20px;
+   line-height: 50px;
+   text-decoration: none;
+ }
+ 
+a {
+   color: #313131;
+   font-weight: 400;
+}
+a:hover {
+   color: #021e2e;
+}
+section {
+   padding: 10px;
+   padding-bottom: 35px;
+   border-bottom: 1px solid #044642;
+   display: block;
+   list-style: none;
+   padding: 10px;
+   justify-content: space-around; 
+}
+.section_title{
+   display: block;
+   text-align: center;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+.section_list{
+   display: block;
+   text-align: left;
+}
+ol, ul {
+   list-style: none;
+
+}
+pre {
+   display: block;
+   font-family: monospace;
+   unicode-bidi: isolate;
+   white-space: pre;
+}
+.pre {
+   display: flex;
+   justify-content: center;
+}
+.rss {
+   width: 100px;
+   height: 50px;
+   /* justify-content: center; */
+   box-sizing: border-box;
+   padding-left: 15px;
+}
+.footer__span {
+   color: #13557a;
+   justify-content: center;
+}
+#github_footer {
+   text-decoration: none;
+}
+footer{
+   background-color: #00a5a580;
+}
+
