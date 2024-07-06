@@ -1,4 +1,4 @@
 # rsschool-cv
 
-https://Jul-G.github.io/rsschool-cv/cv
-https://Jul-G.github.io/rsschool-cv/
+https://jul-g.github.io/rsschool-cv/cv
+https://jul-g.github.io/rsschool-cv/rsschool-cv/
