@@ -90,7 +90,7 @@ pre {
    white-space: pre;
 }
 .pre {
-   display: flex;
+   display: block;
    justify-content: center;
 }
 .rss {
